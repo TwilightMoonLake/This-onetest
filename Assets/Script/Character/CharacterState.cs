@@ -21,6 +21,7 @@ public class CharacterState : MonoBehaviour
         get { if (templateAnimalData != null) { return templateAnimalData.flySpeed; } else { return 0; } }
         set { templateAnimalData.flySpeed = value; }
     }
+    
     public float swimSpeed
     {
         get { if (templateAnimalData != null) { return templateAnimalData.swimSpeed; } else { return 0; } }

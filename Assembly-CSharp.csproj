@@ -81,6 +81,7 @@
     <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\DisableWeatherByTrigger.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\WeatherTypeByTrigger.cs" />
+    <Compile Include="Assets\Script\Manage\Animal Behavior.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\VRState.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -141,7 +142,6 @@
     <Compile Include="Assets\Script\Manage\Weather Manage.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Script\Manage\Animal Behavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

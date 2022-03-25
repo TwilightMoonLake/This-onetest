@@ -66,9 +66,13 @@ public class AnimalBehavior : AnimalManage
     {
         
     }
+    void AnimalTest()
+    {
+        Debug.Log("Test");
+    }
 
 
     #endregion
-
+    
 
 }

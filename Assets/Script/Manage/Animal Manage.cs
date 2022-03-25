@@ -27,6 +27,7 @@ public enum AnimalType
 }
 public class AnimalManage : MonoBehaviour
 {
+    
     private CharacterState characterState;
     private AnimalStates animalStates;
     private AnimalAge animalAge;
@@ -46,8 +47,10 @@ public class AnimalManage : MonoBehaviour
 
     void SwitchAnimalType()
     {
+        
         switch (animalType)
         {
+            
             case AnimalType:
                 JudgeAnimalAge();
                 break;
