@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+//判断天气类型，得到天气类型的bool值
 // 判断动物类型→判断动物年龄阶段→判断动物行为
 /* 动物行为的行为分为正常天气Clear的行为以及非Clear下的行为
  * 非clear天气下判断具体天气类型，然后编写具体行为
@@ -48,8 +49,9 @@ public class AnimalManage : MonoBehaviour
         switch (animalType)
         {
             case AnimalType:
-                
+                JudgeAnimalAge();
                 break;
+            
         }
     }
     void JudgeAnimalAge()
@@ -57,8 +59,10 @@ public class AnimalManage : MonoBehaviour
         switch (animalAge)
         {
             case AnimalAge.YOUNG:
+                
                 break;
             case AnimalAge.ADULT:
+                SwitchAnimalStates();
                 break;
             case AnimalAge.OLD:
                 break;
@@ -120,7 +124,7 @@ public class AnimalManage : MonoBehaviour
 
         }
         #endregion
-        #region 特殊天气下的特殊行为
+        #region 某种动物在特殊天气下的特殊行为
         switch (animalType)
         {
             case AnimalType:
@@ -131,12 +135,9 @@ public class AnimalManage : MonoBehaviour
                 break;
         }
         #endregion
-
-
     }
     void AnimalDead()
     {
         
     }
-
 }

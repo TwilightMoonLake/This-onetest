@@ -7,6 +7,11 @@ using UnityEngine;
 public class AnimalData_SO : ScriptableObject
 {
     public float speed;     //动物的移动速度
+    public float flySpeed; //动物的飞行速度
+    public float swimSpeed; //动物游泳速度
+    public float runSpeed; //动物的跑步速度
+    public float jumpSpeed; //动物的跳跃速度
+    
     public int maxFavorability; //好感度
     public int currentFavorability;//当前好感度
     public int maxHealth;      //生命值

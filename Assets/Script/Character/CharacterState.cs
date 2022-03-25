@@ -5,13 +5,36 @@ using UnityEngine;
 
 public class CharacterState : MonoBehaviour
 {
+    //该部分控制每一个动物的属性
+    public GameObject weatherType;
     public AnimalData_SO templateAnimalData;
     public WeatherData_SO characterWeatherData;
+  
     #region 加载animal数据
     public float speed
     {
         get { if (templateAnimalData != null) { return templateAnimalData.speed; } else { return 0; } }
         set { templateAnimalData.speed = value; }
+    }
+    public float flySpeed
+    {
+        get { if (templateAnimalData != null) { return templateAnimalData.flySpeed; } else { return 0; } }
+        set { templateAnimalData.flySpeed = value; }
+    }
+    public float swimSpeed
+    {
+        get { if (templateAnimalData != null) { return templateAnimalData.swimSpeed; } else { return 0; } }
+        set { templateAnimalData.swimSpeed = value; }
+    }
+    public float jumpSpeed
+    {
+        get { if (templateAnimalData != null) { return templateAnimalData.jumpSpeed; } else { return 0; } }
+        set { templateAnimalData.jumpSpeed = value; }
+    }
+    public float runSpeed
+    {
+        get { if (templateAnimalData != null) { return templateAnimalData.runSpeed; } else { return 0; } }
+        set { templateAnimalData.runSpeed = value; }
     }
     public int maxFavorability
     {

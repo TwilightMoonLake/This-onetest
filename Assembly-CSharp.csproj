@@ -62,6 +62,7 @@
     <Compile Include="Assets\UniStorm Weather System\Scripts\Demo\DemoUIController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Script\Manage\Singleton.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Effects\UniStormPostEffectsBase.cs" />
@@ -109,14 +110,18 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\UniStormPool.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Demo\UniStormUIDisplay.cs" />
+    <Compile Include="Assets\Script\Manage\Animal Manage.cs" />
+    <Compile Include="Assets\Script\Character\CharacterState.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\GenerateNoise.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\UniStormProfile.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Effects\UniStormAtmosphericFog.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Script\Character\AnimalData_SO.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\LightningSystem.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\UniStormCTSController.cs" />
+    <Compile Include="Assets\Script\Manage\Game Manage.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\Perlin.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
@@ -128,18 +133,15 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\TurnOffLight.cs" />
+    <Compile Include="Assets\Script\Character\WeatherData_SO.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Demo\UniStormCharacterController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Script\Manage\Weather Manage.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Script\Manage\Animal Manage.cs" />
-    <Compile Include="Assets\Script\Manage\Weather Manage.cs" />
-    <Compile Include="Assets\Script\Character\AnimalData_SO.cs" />
-    <Compile Include="Assets\Script\Character\CharacterState.cs" />
-    <Compile Include="Assets\Script\Character\WeatherData_SO.cs" />
-    <Compile Include="Assets\Script\Manage\Singleton.cs" />
+    <Compile Include="Assets\Script\Manage\Animal Behavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
