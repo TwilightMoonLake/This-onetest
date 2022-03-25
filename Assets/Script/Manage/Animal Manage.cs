@@ -27,7 +27,7 @@ public enum AnimalType
 }
 public class AnimalManage : MonoBehaviour
 {
-    
+    private AnimalBehavior animalBehavior;
     private CharacterState characterState;
     private AnimalStates animalStates;
     private AnimalAge animalAge;
@@ -62,6 +62,7 @@ public class AnimalManage : MonoBehaviour
         switch (animalAge)
         {
             case AnimalAge.YOUNG:
+                
                 
                 break;
             case AnimalAge.ADULT:
@@ -134,6 +135,7 @@ public class AnimalManage : MonoBehaviour
                 if (characterState.isFoggy) //比如某种动物在大雾下的行为
                 {
                     //调用方法
+                    
                 }
                 break;
         }
