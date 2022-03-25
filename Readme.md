@@ -24,10 +24,14 @@ Unistrom天气控制插件的应用，内置管理板块和大量的天气系统
 动物的各种行为分别写成方法，在判断语句判定动物种类，年龄，天气后调用。
 调用有关动物的CharacterState的两部分数据
 `CharacterState characterState;`
+
 `characterState.characterWeatherData.{isClear,isCloudy...}`
+
 `characterState.templateAnimalData.{speed,maxHealth...}`
 调用动物行为的方法
+
 `private AnimalBehavior animalBehavior;`
+
 `animalBehavior.{AnimalMove,AnimalRun,AnimalSleep...}`
 待补充
 
