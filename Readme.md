@@ -1,12 +1,5 @@
 # 牧场模拟项目
-                            游戏管理模块
-                                ↓
-        数据管理   动物管理模块  UI管理模块 玩家管理模块  ？？模块  ？
-          ↓          ↓              ↓      ↓
-    音乐 动物 天气等   ↓              ↓      ↓
-               行为控制 天气判断       ↓      ↓
-							        ↓      ↓
-					 	启动模块   ？   ？   ↓ 
+![](https://github.com/TwilightMoonLake/This-onetest/blob/main/GitOther/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%9D%97%E8%8D%89%E5%9B%BE.png?raw=true)
 
                            
 代码结构：待补充
