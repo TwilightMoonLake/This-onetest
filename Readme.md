@@ -1,5 +1,6 @@
 # 牧场模拟项目
 ![](https://github.com/TwilightMoonLake/This-onetest/blob/main/GitOther/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%9D%97%E8%8D%89%E5%9B%BE.png?raw=true)
+![](https://github.com/TwilightMoonLake/This-onetest/blob/main/GitOther/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%9D%97%E8%8D%89%E5%9B%BE.png?raw=true)
 
                            
 代码结构：待补充
@@ -40,3 +41,4 @@ Unistrom天气控制插件的应用，内置管理板块和大量的天气系统
 ## 
 脚本文件位于Assets/Script文件夹中，因为不确认结构的合理性，暂时没有写动物行为的方法
 游戏内场景搭建和素材的导入，以及动画状态机的设置,在结构验证合理后开始搭建。
+
