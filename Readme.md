@@ -1,6 +1,6 @@
 # 牧场模拟项目
 ![](https://github.com/TwilightMoonLake/This-onetest/blob/main/GitOther/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%9D%97%E8%8D%89%E5%9B%BE.png?raw=true)
-![](https://github.com/TwilightMoonLake/This-onetest/blob/main/GitOther/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%9D%97%E8%8D%89%E5%9B%BE.png?raw=true)
+
 
                            
 代码结构：待补充
