@@ -5,13 +5,49 @@ using UnityEngine;
 public class AnimalBehavior : AnimalManage
 {
 
-        
     //该部分内容用于动物行为的编写
-    CharacterState characterState;//调用数据
-    #region 动物基础行为
+    CharacterState characterState;//调用动物属性数据
+    public Animator anim;//获取动画组件
+    /*动物所需刚体等组件的内容待cr之后添加*/
+    [Header("Animation bool")]//设置bool值对状态机进行判断,此处暂时都为bool值，根据项目需求进行float等其他动画状态机条件判断
+    bool isWalk;
+    bool isRun;
+    bool isJump;
+    bool isSleep;
+    bool isFly;
+    bool isSwim;
+    bool isEat;
+    bool isReproduction;
+    bool isPlayWithPlayer;
+    bool isAnimalFear;
+    bool isAnimalGather;
+    bool isAnimalFight;
+
+    public void SwitchAnimalAnimation()
+    {
+        anim.SetBool("",isWalk);
+        anim.SetBool("", isRun);
+        anim.SetBool("", isJump);
+        anim.SetBool("", isSleep);
+        anim.SetBool("", isFly);
+        anim.SetBool("", isSwim);
+        anim.SetBool("", isEat);
+        anim.SetBool("", isReproduction);
+        anim.SetBool("", isPlayWithPlayer);
+        anim.SetBool("", isAnimalFear);
+        anim.SetBool("", isAnimalGather);
+        anim.SetBool("", isAnimalFight);
+
+    }
+    //动物行为的具体代码编写在cr之后Update
+    #region 动物基础行为zhi
     public void AnimalMove(CharacterState characterState)//控制动物移动
     {
-       
+        //Update状态机数值
+       //获取目标移动范围半径
+       //随机产生半径内的X与Z值
+       //设置计时器进行重置
+       //循环该过程
     }
     public void AnmialFly()//控制动物飞行，飞行类动物调用该方法
     {
@@ -31,6 +67,8 @@ public class AnimalBehavior : AnimalManage
     }
     public void AnimalSound()//控制动物叫声
     {
+        //设置计时器，产生一个限定时间内的随机数值
+        //数值归零后播放BGM
 
     }
     public void AnimalEat()//控制动物进食
@@ -39,6 +77,8 @@ public class AnimalBehavior : AnimalManage
     }
     public void AnimalSleep()//控制动物睡眠
     {
+        //获取游戏内昼夜时间
+        //Update状态机进行动画覆盖
 
     }
     public void AnimalPlayWithPlayer()//控制动物与玩家的互动
@@ -47,7 +87,10 @@ public class AnimalBehavior : AnimalManage
     }
     public void AnimalReproduction()//控制动物繁殖
     {
-
+        //设置限定条件
+        //更新Data数据
+        //当currentData == maxData时 Update状态机
+        //
     }
 
     #endregion

@@ -1,0 +1,76 @@
+Using pre-set license
+Built from '2021.2/china_unity/release' branch; Version is '2021.2.14f1c1 (7c06c4af091b) revision 8128196'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Study Software\Unity\2021.2.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/GitHub/GitHome
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59072
+Successfully changed project path to: E:/GitHub/GitHome
+E:/GitHub/GitHome
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+received signal from system: SIGSEGV
+Obtained 24 stack frames
+0x00007ff63c35357d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff63c35a2d9 (Unity) StackWalker::ShowCallstack
+0x00007ff63d2d1f03 (Unity) GetStacktrace
+0x00007ff63c359316 (Unity) winutils::PrintStackTrace
+0x00007ff63c352bac (Unity) winutils::CrashHandler::DefaultSignalHandler
+0x00007ff63e66cf02 (Unity) seh_filter_exe
+0x00007ff63e72d39c (Unity) `__scrt_common_main_seh'::`1'::filt$0
+0x00007ff63e6392e0 (Unity) _C_specific_handler
+0x00007ffc35fc1fff (ntdll) _chkstk
+0x00007ffc35f8aad9 (ntdll) RtlRaiseException
+0x00007ffc35fc0c6e (ntdll) KiUserExceptionDispatcher
+0x00007ff63bbdd64a (Unity) DynamicHeapAllocator::InitializeMemoryRegion
+0x00007ff63bbd8543 (Unity) DynamicHeapAllocator::CreateTLSFBlock
+0x00007ff63bbd7396 (Unity) DynamicHeapAllocator::Allocate
+0x00007ff63bbe47c4 (Unity) DualThreadAllocator<DynamicHeapAllocator>::Allocate
+0x00007ff63bbd79e4 (Unity) MemoryManager::Allocate
+0x00007ff63bbd6c9d (Unity) operator new
+0x00007ff63bbe805b (Unity) TLSAllocator::ThreadInitialize
+0x00007ff63bbdd9c4 (Unity) MemoryManager::LateStaticInitialize
+0x00007ff63ce8036d (Unity) Application::InitializeProject
+0x00007ff63d2dc668 (Unity) WinMain
+0x00007ff63e616bae (Unity) __scrt_common_main_seh
+0x00007ffc34f57c24 (KERNEL32) 
+0x00007ffc35f8d721 (ntdll) RtlUserThreadStart
+
