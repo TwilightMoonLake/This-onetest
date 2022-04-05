@@ -11,10 +11,14 @@ Unistrom天气控制插件的应用，内置管理板块和大量的天气系统
 此处的天气判定非调用Unistorm内实时天气，而是通过RandomWeather进行模拟
 
 `private float timeWeatherSystem = 20; `
+
 ` timeWeatherSystem = timeWeatherSystem - Time.deltaTime;`
 
+
 调用RandomWeather来产生天气bool值模拟判断
+
 `privite RandomWeather randomWeather; ` 
+
 `void Update(){randomWeather.WeatherRandom();}`
 
 ## 2.动物管理模块
@@ -44,15 +48,23 @@ Unistrom天气控制插件的应用，内置管理板块和大量的天气系统
 
 ## 动物传染病模块
 ### 动物在特定天气下生病，该状态为传染机制。初始染病动物免疫力低于指定值时在天气作用下调用染病方法,对特定区域范围的内同类动物较高概率传染，对非同类动物进行较低概率传染。
+
 ` private float illRadius = 10;//疾病的传染范围`
+
 `var colliders = Physics.OverlapSphere(transform.position,illRadius);`
+
 通过OverlapSphere获取目前区域内的动物数据，查找动物实体,调用动物传染病模块,根据时间对同类和非同类动物进行周期性的免疫力衰减，当指定值到达时调用
+
 `animalBehaviors. AnimalFallIll();`
 
+
 此处用应用OnTriggerStay进行检测t另类test
+
 即
 `if(other.tag == gameObject.tag)`
+
 `if(other.tag != gameObject.tag)`
+
 进行同类和非同类动物检测，然后random float数值，通过选择结构对other物体进行销毁
 
 
