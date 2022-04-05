@@ -9,6 +9,7 @@ public class CharacterState : MonoBehaviour
     public GameObject weatherType;
     public AnimalData_SO templateAnimalData;
     public WeatherData_SO characterWeatherData;
+    private float timeDownill = 20;
   
     #region º”‘ÿanimal ˝æ›
     public float speed
@@ -150,4 +151,15 @@ public class CharacterState : MonoBehaviour
         set { characterWeatherData.isBlueAroras = value; }
     }
     #endregion
+
+    public void lifeDownInill()
+    {
+        timeDownill = timeDownill - Time.deltaTime;
+        if (timeDownill <= 20)
+        {
+            templateAnimalData.currentHealth = templateAnimalData.currentHealth - 1;
+            timeDownill = 20;
+        }
+        
+    }
 }

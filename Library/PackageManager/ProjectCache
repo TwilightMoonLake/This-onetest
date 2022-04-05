@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637840541262023730
-    m_Hash: 3889405549
+      ticks: 637840833333013235
+    m_Hash: 3904828356
   m_LockFileStatus:
     m_FilePath: E:/GitHub/GitHome/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637840541262063735
-    m_Hash: 726722678
+      ticks: 637840833333013235
+    m_Hash: 1814313997
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -360,9 +360,11 @@ m_ResolvedPackages:
     - 2.0.11
     - 2.0.12
     - 2.0.14
+    - 2.0.15
     compatible:
     - 2.0.14
-    verified: 2.0.14
+    - 2.0.15
+    verified: 2.0.15
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
