@@ -404,7 +404,7 @@
 "Assets/Script/Manage/AnimalBehaviors.cs"
 "Assets/Script/Manage/AnimalInfectiousDiseases.cs"
 "Assets/Script/Manage/AnimalManagers.cs"
-"Assets/Script/Manage/Game Manage.cs"
+"Assets/Script/Manage/GameManager.cs"
 "Assets/Script/Manage/Singleton.cs"
 "Assets/Script/Manage/Weather Manage.cs"
 "Assets/UniStorm Weather System/Scripts/Clouds/GenerateNoise.cs"

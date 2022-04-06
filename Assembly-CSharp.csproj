@@ -73,6 +73,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Script\Manage\GameManager.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Components\LightningStrike.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Effects\UniStormSunShafts.cs" />
@@ -125,7 +126,6 @@
     <Compile Include="Assets\Script\Character\AnimalData_SO.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\LightningSystem.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\UniStormCTSController.cs" />
-    <Compile Include="Assets\Script\Manage\Game Manage.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\System\Perlin.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
@@ -146,6 +146,7 @@
     <Compile Include="Assets\Script\Manage\Weather Manage.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Script\Character\DiseasesManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

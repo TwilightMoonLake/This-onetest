@@ -43,11 +43,7 @@ public class AnimalManagers : MonoBehaviour
         characterState = GetComponent<CharacterState>();
     }
     void Start()
-    {
-        
-       characterState.characterWeatherData.isFoggy = true;
-        
-        
+    {    
     }
     void Update()
     {
@@ -66,7 +62,6 @@ public class AnimalManagers : MonoBehaviour
             case AnimalType.PIG:
                 JudgeAnimalAge();
                 break;
-
         }
     }
     void JudgeAnimalAge()//进行动物年龄判断

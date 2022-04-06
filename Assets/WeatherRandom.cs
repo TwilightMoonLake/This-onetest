@@ -10,16 +10,6 @@ public class WeatherRandom : MonoBehaviour
     private int randomWeather;
     private float timeWeatherSystem = 20;
     private CharacterState characterState;
-    void Start()
-    {
-     
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        RandomWeather();
-    }
     public void RandomWeather()
     {
         Debug.Log("执行了天气random方法");
@@ -29,8 +19,6 @@ public class WeatherRandom : MonoBehaviour
             randomWeather = Random.Range(0, 8);
             timeWeatherSystem = 20;
         }
-
-
         if (0 <= randomWeather && randomWeather < 1)
         {
             characterState.characterWeatherData.isClear = true;
@@ -52,7 +40,6 @@ public class WeatherRandom : MonoBehaviour
             characterState.characterWeatherData.isRedAroras = false;
             characterState.characterWeatherData.isBlueAroras = false;
             characterState.characterWeatherData.isSnow = false;
-
         }
         else if (2 <= randomWeather && randomWeather < 3)
         {
@@ -120,7 +107,5 @@ public class WeatherRandom : MonoBehaviour
             characterState.characterWeatherData.isBlueAroras = false;
             characterState.characterWeatherData.isSnow = true;
         }
-
-
     }
 }

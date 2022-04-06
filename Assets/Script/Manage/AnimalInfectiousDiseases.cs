@@ -13,7 +13,28 @@ public class AnimalInfectiousDiseases : MonoBehaviour
 
     void isDiseases()
     {
-        animalBehaviors.AnimalFallIll();
+        if (animalIsIll)
+        {
+            animalBehaviors.AnimalFallIll();
+            
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Virus")
+        {
+            animalIsIll = true;
+
+            if (animalBehaviors.characterState.templateAnimalData.currentImmunity >= 20 &&animalBehaviors.characterState.templateAnimalData.currentImmunity <= 50)
+            {
+                isDiseases();
+            }
+            else
+            {
+                return;
+            }
+        }
     }
 
 

@@ -157,9 +157,9 @@ public class CharacterState : MonoBehaviour
         timeDownill = timeDownill - Time.deltaTime;
         if (timeDownill <= 20)
         {
+            templateAnimalData.currentImmunity = templateAnimalData.currentImmunity - 1;
             templateAnimalData.currentHealth = templateAnimalData.currentHealth - 1;
             timeDownill = 20;
-        }
-        
+        }      
     }
 }

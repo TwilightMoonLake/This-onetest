@@ -327,6 +327,7 @@ GameObject:
   - component: {fileID: 291841302}
   - component: {fileID: 291841303}
   - component: {fileID: 291841304}
+  - component: {fileID: 291841305}
   m_Layer: 0
   m_Name: Systems
   m_TagString: Untagged
@@ -361,6 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc6d3ded5467ec428b26f9b75977479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animalIsIll: 0
 --- !u!114 &291841303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +390,19 @@ MonoBehaviour:
   weatherType: {fileID: 0}
   templateAnimalData: {fileID: 0}
   characterWeatherData: {fileID: 11400000, guid: 25b2135a26d91864983584005667a366, type: 2}
+--- !u!114 &291841305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291841300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7ada3e734920d4eb9d1aebacafd310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weatherRandom: {fileID: 0}
 --- !u!1 &427476395
 GameObject:
   m_ObjectHideFlags: 0

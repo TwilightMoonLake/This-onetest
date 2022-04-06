@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class AnimalBehaviors : MonoBehaviour
 {
+    public GameObject animalVirus;//引入病毒概念
     private float timeDownInfected = 10;
     private float random;
     public GameObject otherAnimal;
     private float timeDownFill = 20;
     private float illRadius = 10;//疾病的传染范围
     //该部分内容用于动物行为的编写
-    CharacterState characterState;//调用动物属性数据
+    public CharacterState characterState;//调用动物属性数据
     private AnimalManagers animalManagers;
     public Animator anim;//获取动画组件
     /*动物所需刚体等组件的内容待cr之后添加*/
@@ -131,6 +132,8 @@ public class AnimalBehaviors : MonoBehaviour
     {
 
         isIll = true;
+        Instantiate(animalVirus,transform.position,Quaternion.identity);
+        //在目前区域生成病毒
         //如何判定动物感染力疾病
         Debug.Log("动物感染了传染病");
         Debug.Log(isIll);
@@ -163,9 +166,7 @@ public class AnimalBehaviors : MonoBehaviour
             //if (otherAnimal.tag == "Animal")
             //{
             //    Debug.Log("Found Animal!");
-            //    return true;
-                
-                
+            //    return true;          
             //}
         }
         return false;
@@ -191,7 +192,6 @@ public class AnimalBehaviors : MonoBehaviour
                     other.gameObject.GetComponent<GameObject>();
                     Destroy(other.gameObject); ;
                     //此处用销毁目标来作为代替感染效果
-
                 }
             }
             else if (other.tag != gameObject.tag)
@@ -210,8 +210,7 @@ public class AnimalBehaviors : MonoBehaviour
         else //非染病动物
         {
             
-        }
-      
+        }   
     }
     #endregion
 }
