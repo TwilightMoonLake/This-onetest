@@ -15,11 +15,9 @@ Unistrom天气控制插件的应用，内置管理板块和大量的天气系统
 ` timeWeatherSystem = timeWeatherSystem - Time.deltaTime;`
 
 
-调用RandomWeather来产生天气bool值模拟判断
+RandomWeather来产生天气bool值模拟判断
 
 `privite RandomWeather randomWeather; ` 
-
-`void Update(){randomWeather.WeatherRandom();}`
 
 ## 2.动物管理模块
 ### 设计思路：
@@ -48,6 +46,9 @@ Unistrom天气控制插件的应用，内置管理板块和大量的天气系统
 
 ## 动物传染病模块
 ### 动物在特定天气下生病，该状态为传染机制。初始染病动物免疫力低于指定值时在天气作用下调用染病方法,对特定区域范围的内同类动物较高概率传染，对非同类动物进行较低概率传染。
+感染机制：animal在天气状态染病后，将会实例化virus实体
+`Instantiate(animalVirus,transform.position,Quaternion.identity);`
+所有Animal都挂有传染模块AnimalInfectiousDiseases,该模块脚本中OnTriggerStay对范围内的进行tag检测，当检测时virus，预设bool值变为true，调用isDiseases()方法，从而调用数值计算，低于指定值后最终调用AnimalFallIll()进行染病处理。
 
 ` private float illRadius = 10;//疾病的传染范围`
 
