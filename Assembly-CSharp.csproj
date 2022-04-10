@@ -72,6 +72,7 @@
     <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\LightningEvent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Script\Manage\DiseasesManager.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Script\Manage\GameManager.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Components\LightningStrike.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\ScreenSpaceCloudShadows.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Components\FadeLightEffect.cs" />
+    <Compile Include="Assets\Script\Tool\IDiseaseStatus.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Script\Character\DiseaseData_SO.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\ProceduralHemispherePolarUVs.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
@@ -130,7 +133,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\WeatherRandom.cs" />
+    <Compile Include="Assets\Script\Manage\WeatherRandom.cs" />
     <Compile Include="Assets\UniStorm Weather System\Scripts\Components\FireLight.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
@@ -146,7 +149,6 @@
     <Compile Include="Assets\Script\Manage\Weather Manage.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Script\Character\DiseasesManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

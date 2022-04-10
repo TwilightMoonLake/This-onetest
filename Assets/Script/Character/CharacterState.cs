@@ -8,9 +8,18 @@ public class CharacterState : MonoBehaviour
     //该部分控制每一个动物的属性
     public GameObject weatherType;
     public AnimalData_SO templateAnimalData;
+    public AnimalData_SO updateAnimalDate;
     public WeatherData_SO characterWeatherData;
+    public DiseaseData_SO diseaseData;
     private float timeDownill = 20;
-  
+    private void Awake()
+    {
+        if (updateAnimalDate != null) 
+        {
+            templateAnimalData = Instantiate(updateAnimalDate);
+        }
+    }
+
     #region 加载animal数据
     public float speed
     {
@@ -151,6 +160,48 @@ public class CharacterState : MonoBehaviour
         set { characterWeatherData.isBlueAroras = value; }
     }
     #endregion
+    #region DiseaseDate_SO
+    public float Illness
+    {
+        get { if (diseaseData != null) { return diseaseData.illness; } else { return 0; } }
+        set { diseaseData.illness = value; }
+    }
+    public int cureValue
+    {
+        get { if (diseaseData != null) { return diseaseData.cureValue; } else { return 0; } }
+        set { diseaseData.cureValue = value; }
+    }
+    public float failoverTime
+    {
+        get { if (diseaseData != null) { return diseaseData.failoverTime; } else { return 0; } }
+        set { diseaseData.failoverTime = value; }
+    }
+    public bool isDisease
+    {
+        get { if (diseaseData != null) { return diseaseData.isDisease; } else { return false; } }
+        set { diseaseData.isDisease = value; }
+    }
+    public bool isMildSymptoms
+    {
+        get { if (diseaseData != null) { return diseaseData.isMildSymptoms; } else { return false; } }
+        set { diseaseData.isMildSymptoms = value; }
+    }
+    public bool isModerateSymptoms
+    {
+        get { if (diseaseData != null) { return diseaseData.isModerateSymptoms; } else { return false; } }
+        set { diseaseData.isModerateSymptoms = value; }
+    }
+    public bool isSevereSymptoms
+    {
+        get { if (diseaseData != null) { return diseaseData.isSevereSymptoms; } else { return false; } }
+        set { diseaseData.isSevereSymptoms = value; }
+    }
+    public List<int> epidemicArea
+    {
+        get { if (diseaseData != null) { return diseaseData.epidemicArea; } else { return null; } }
+        set { diseaseData.epidemicArea = value; }
+    }
+    #endregion
 
     public void lifeDownInill()
     {
@@ -162,4 +213,5 @@ public class CharacterState : MonoBehaviour
             timeDownill = 20;
         }      
     }
+ 
 }

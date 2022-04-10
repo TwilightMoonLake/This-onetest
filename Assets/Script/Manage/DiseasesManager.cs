@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DiseasesManager : MonoBehaviour
+public class DiseasesManager : MonoBehaviour,IDiseaseStatus
 {
     public AnimalInfectiousDiseases animalInfectiousDiseases;
 
@@ -12,6 +12,14 @@ public class DiseasesManager : MonoBehaviour
         
     }
     void Update()
+    {
+        
+    }
+    void CheckAnimalInfo()
+    {
+        print("");
+    }
+    void IDiseaseStatus.CheckAnimal()
     {
         
     }

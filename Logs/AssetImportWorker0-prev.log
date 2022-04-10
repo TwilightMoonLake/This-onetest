@@ -15,7 +15,7 @@ E:/GitHub/GitHome
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54711
+60055
 Successfully changed project path to: E:/GitHub/GitHome
 E:/GitHub/GitHome
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ E:/GitHub/GitHome
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 98.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.14f1c1 (7c06c4af091b)
 [Subsystems] Discovering subsystems at path D:/Study Software/Unity/2021.2.14f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,75 +64,75 @@ Initialize mono
 Mono path[0] = 'D:/Study Software/Unity/2021.2.14f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Study Software/Unity/2021.2.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Study Software/Unity/2021.2.14f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Study Software/Unity/2021.2.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003538 seconds.
+Registered in 0.003491 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
+- Completed reload, in  0.658 seconds
 Domain Reload Profiling:
-	ReloadAssembly (746ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (523ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011300 seconds.
+Registered in 0.009712 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\GitHub\GitHome\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\GitHub\GitHome\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
+- Completed reload, in  1.058 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1056ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1058ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (109ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -141,12 +141,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3862 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4319.
-Memory consumption went from 223.3 MB to 222.8 MB.
-Total: 3.268800 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.119400 ms MarkObjects: 2.557700 ms  DeleteObjects: 0.232400 ms)
+Unloading 3865 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.6 MB). Loaded Objects now: 4322.
+Memory consumption went from 223.4 MB to 222.8 MB.
+Total: 3.962600 ms (FindLiveObjects: 0.442300 ms CreateObjectMapping: 0.214700 ms MarkObjects: 3.080600 ms  DeleteObjects: 0.222600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,37 +161,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 457350.687908 seconds.
-  path: Assets/Script/Manage/AnimalManagers.cs
-  artifactKey: Guid(8759787cc3eee9c46be25963d4de43c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manage/AnimalManagers.cs using Guid(8759787cc3eee9c46be25963d4de43c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8080d8fd2fe4f8e41b03e7d66f5cae0') in 0.039025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.466585 seconds.
+  Time since last request: 293944.753549 seconds.
   path: Assets/Script/Manage/AnimalBehaviors.cs
   artifactKey: Guid(38568244773067b4b9dc5748313850be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manage/AnimalBehaviors.cs using Guid(38568244773067b4b9dc5748313850be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02f1a8510a31bef094c12a70aa81429') in 0.001471 seconds 
+Start importing Assets/Script/Manage/AnimalBehaviors.cs using Guid(38568244773067b4b9dc5748313850be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bde675a34321f81e9eda49cdd60ab41') in 0.037902 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.283462 seconds.
+  Time since last request: 1.756361 seconds.
   path: Assets/Script/Manage/AnimalInfectiousDiseases.cs
   artifactKey: Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manage/AnimalInfectiousDiseases.cs using Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e209b5accaed6d51b2b973c330a266e9') in 0.001793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.481462 seconds.
-  path: Assets/Script/Manage/AnimalInfectiousDiseases.cs
-  artifactKey: Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manage/AnimalInfectiousDiseases.cs using Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d54c8ce713f7b9e12524f575c4aa3d7') in 0.001876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.562228 seconds.
-  path: Assets/Script/Manage/AnimalInfectiousDiseases.cs
-  artifactKey: Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manage/AnimalInfectiousDiseases.cs using Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b38895e9864782ea915c41077c50faf') in 0.001688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.845546 seconds.
-  path: Assets/Script/Manage/AnimalInfectiousDiseases.cs
-  artifactKey: Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Manage/AnimalInfectiousDiseases.cs using Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2114c0c775bedac8c04c04ca6691820') in 0.001861 seconds 
+Start importing Assets/Script/Manage/AnimalInfectiousDiseases.cs using Guid(8bc6d3ded5467ec428b26f9b75977479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e29dccce1814f545439fef72d437fa3') in 0.004337 seconds 

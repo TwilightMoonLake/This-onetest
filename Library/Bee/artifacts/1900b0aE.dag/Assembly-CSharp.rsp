@@ -398,15 +398,19 @@
 "Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
 "Assets/Script/Character/AnimalData_SO.cs"
 "Assets/Script/Character/CharacterState.cs"
+"Assets/Script/Character/DiseaseData_SO.cs"
 "Assets/Script/Character/WeatherData_SO.cs"
 "Assets/Script/Manage/Animal Behavior.cs"
 "Assets/Script/Manage/Animal Manage.cs"
 "Assets/Script/Manage/AnimalBehaviors.cs"
 "Assets/Script/Manage/AnimalInfectiousDiseases.cs"
 "Assets/Script/Manage/AnimalManagers.cs"
+"Assets/Script/Manage/DiseasesManager.cs"
 "Assets/Script/Manage/GameManager.cs"
 "Assets/Script/Manage/Singleton.cs"
 "Assets/Script/Manage/Weather Manage.cs"
+"Assets/Script/Manage/WeatherRandom.cs"
+"Assets/Script/Tool/IDiseaseStatus.cs"
 "Assets/UniStorm Weather System/Scripts/Clouds/GenerateNoise.cs"
 "Assets/UniStorm Weather System/Scripts/Clouds/ProceduralHemispherePolarUVs.cs"
 "Assets/UniStorm Weather System/Scripts/Clouds/ScreenSpaceCloudShadows.cs"
@@ -440,7 +444,6 @@
 "Assets/UniStorm Weather System/Scripts/System/UniStormSystem.cs"
 "Assets/UniStorm Weather System/Scripts/System/VRState.cs"
 "Assets/UniStorm Weather System/Scripts/System/WeatherType.cs"
-"Assets/WeatherRandom.cs"
 -langversion:9.0
 
 /deterministic
