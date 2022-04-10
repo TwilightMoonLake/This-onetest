@@ -49,6 +49,15 @@ RandomWeather来产生天气bool值模拟判断
 感染机制：animal在天气状态染病后，将会实例化virus实体
 `Instantiate(animalVirus,transform.position,Quaternion.identity);`
 所有Animal都挂有传染模块AnimalInfectiousDiseases,该模块脚本中OnTriggerStay对范围内的进行tag检测，当检测时virus，预设bool值变为true，调用isDiseases()方法，从而调用数值计算，低于指定值后最终调用AnimalFallIll()进行染病处理。
+·增加了DiscaseData集中config数据
+·增加了疾病下的机制：疾病程度，疾病治疗等
+·返回索引gameObject的状态
+创建了接口
+
+`public interface IDiseaseStatus `
+实现接口
+`void IDiseaseStatus CheckAnimal`
+
 
 ` private float illRadius = 10;//疾病的传染范围`
 
